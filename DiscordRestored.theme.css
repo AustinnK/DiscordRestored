@@ -4,10 +4,10 @@
 * @version 1.11.0
 * @description Restores discord back to the classic UI
 * @source https://github.com/AustinnK/DiscordRestored
-* @updateUrl https://github.com/AustinnK/DiscordRestored/blob/main/DiscordRestored.theme.css
+* @updateUrl https://raw.githubusercontent.com/AustinnK/DiscordRestored/main/DiscordRestored.theme.css
 */
 
-@import url(https://github.com/AustinnK/DiscordRestored/blob/main/style.css);
+@import url(https://raw.githubusercontent.com/AustinnK/DiscordRestored/main/style.css);
 
 /* made by Austism. bonus points goes to EnderTheGuardian */
 /* update 2 made by EnderTheGuardian */

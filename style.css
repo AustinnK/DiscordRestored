@@ -33,7 +33,7 @@
     
 
 /* Simulate old regular message dividers */
-.group-spacing-24 .groupStart-3Mlgv1::after {
+.groupStart-3Mlgv1::after {
     content: "";
     position: absolute;
     left: 2%;

@@ -23,8 +23,8 @@
 .group-spacing-24 .groupStart-3Mlgv1 {
     /* half of the original margin into padding for the border */
     /* SET GROUP SPACING TO 24 PX OR OTHERWISE IT WILL NOT WORK */
-    padding-top: 0.98rem;
-    margin-top: 0.98rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
 }
 /* fixed emoji pannel */
 .colorInteractiveActive-30E9n8 {
@@ -36,10 +36,10 @@
 .groupStart-3Mlgv1::after {
     content: "";
     position: absolute;
-    left: 2%;
-    top : -0.45rem;
+    left: 15px;
+    top : -0.25rem;
     height: 1px;
-    width: 96.3%;
+    width: calc(100% - 30px);
     border-top: var(--background-modifier-accent) solid 1px;
 }
 /* Remove on hover message highlighting */
@@ -117,11 +117,11 @@
     color: #7289da;
 }
 /* add "NEW MESSAGES" back */
-.da-isUnread {
+.isUnread-3Lojb-{
     background-color: #c64445;
     border-color: #c64445;
 }
-.da-isUnread::before {
+.isUnread-3Lojb-::before {
         content: "NEW MESSAGES";
         display: block;
         flex: 0 0 auto;
@@ -134,9 +134,27 @@
         line-height: 13px;
 }
 /* Remove normal "NEW" bubble */
-.da-unreadPill {
+.unreadPill-3nEWYM {
     display: none;
 }
+/* "NEW" date */
+.isUnread-3Lojb- .content-3spvdd{
+    display: block;
+    flex: 0 0 auto;
+    padding: 2px 9px;
+    color: #c64445;
+    background: var(--background-primary);
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: -1px;
+    line-height: 13px;
+}
+
+.hasContent-31hcsn::before {
+    display: none;
+}
+
+
 .compact-2Nkcau {
     /* remove spacing between same-group messages */
     padding: .0rem 1rem .0rem 80px;

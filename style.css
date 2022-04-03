@@ -249,5 +249,6 @@ padding-bottom: 0px;
 	--brand-experiment-85a: rgba(114, 137, 218, 0.85) !important;
 	--brand-experiment-90a: rgba(114, 137, 218, 0.9) !important;
 	--brand-experiment-95a: rgba(114, 137, 218, 0.95) !important;
-    --brand-experiment-460a:rgb(114, 137, 218,0.2) !important;
+    	--brand-experiment-460a:rgb(114, 137, 218,0.2) !important;
+	--text-muted:#72767d;
 }

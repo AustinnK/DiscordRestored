@@ -102,18 +102,18 @@
     height: 15px;
 }
 /* change reactions to old style */
-.reaction-2A2y9y {
+.reaction-3vwAF2 {
     border: 0px;
     border-radius: 3px;
     background: #3E4147;
 }
-.reactionCount-1zkLcN {
+.reactionCount-26U4As {
     color: #72767d;
 }
-.reaction-2A2y9y.reactionMe-3I9gFK {
+.reaction-3vwAF2.reactionMe-1PwQAc {
     background-color: var(--brand-experiment-460a);
 }
-.reaction-2A2y9y.reactionMe-3I9gFK .reactionCount-1zkLcN {
+.reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As {
     color: #7289da;
 }
 /* add "NEW MESSAGES" back */

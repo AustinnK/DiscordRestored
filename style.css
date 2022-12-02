@@ -1,11 +1,6 @@
 /* made by Austism. bonus points goes to EnderTheGuardian */
 /* update 2 made by EnderTheGuardian */
 /* other updates made by Austism */
- 
-:root {
-    --font-primary: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    --font-display: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
-}
 
 /* Hide reaction emoji quick selections */
 .da-emojiButton, .da-emojiSeparator, .emojiButton-jE9tXC {
@@ -44,6 +39,233 @@
 }
 /* Remove on hover message highlighting */
 .message-2CShn3:hover {
+    background-color: rgba(0,0,0,0)!important;
+}
+/*.username-h_Y3Us:hover {
+    text-decoration: none!important;
+    font-weight: 510;
+}*/
+/* remade pings*/
+.mentioned-Tre-dv {
+    background-color: rgba(0,0,0,0);
+}
+.theme-dark .wrapper-1ZcZW- {
+    background: rgba(114, 137, 218,0.1);
+    color: #7289da;
+}
+.mentioned-Tre-dv .markup-eYLPri {
+    position: relative;
+    background-color: rgba(250,166,26,0.1)!important;
+    border-radius: 0px 4px 4px 0px;
+    padding-left: 5px;
+    margin-left: -5px;
+}
+.message-2CShn3.mentioned-Tre-dv .markup-eYLPri::before{
+    position: absolute;
+    content: "";
+    display: inline;
+    height: 100%;
+    width: 4px;
+    margin-left: -4px;
+    background-color: rgba(250,166,26,1);
+    border-radius: 4px 0px 0px 4px;
+    pointer-events: none;
+}
+/* remove default ping pseudo element */
+.mentioned-Tre-dv::before {
+    content: none!important;
+}
+
+/* Remove on hover timestamps */
+.timestampVisibleOnHover-9PEuZS {
+    display: none;
+}
+/* Change reaction and more icons */
+.wrapper-2vIMkT {
+    position:relative;
+    background-color: rgba(0,0,0,0);
+    box-shadow: none!important;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+.button-3bklZh {
+    background-color: rgba(0,0,0,0)!important;
+    transition: none!important;
+    padding: 0px;
+}
+.icon-1zidb7 {
+    height: 15px;
+}
+/* change reactions to old style */
+.reaction-3vwAF2 {
+    border: 0px;
+    border-radius: 3px;
+    background: #3E4147;
+}
+.reactionCount-26U4As {
+    color: #72767d;
+}
+.reaction-3vwAF2.reactionMe-1PwQAc {
+    background-color: var(--brand-experiment-460a);
+}
+.reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As {
+    color: #7289da;
+}
+/* add "NEW MESSAGES" back */
+.isUnread-3Lojb-{
+    background-color: #c64445;
+    border-color: #c64445;
+}
+.isUnread-3Lojb-::before {
+        content: "NEW MESSAGES";
+        display: block;
+        flex: 0 0 auto;
+        padding: 2px 9px;
+        color: #c64445;
+        background: var(--background-primary);
+        font-weight: 600;
+        font-size: 13px;
+        margin-top: -1px;
+        line-height: 13px;
+}
+/* Remove normal "NEW" bubble */
+.unreadPill-3nEWYM {
+    display: none;
+}
+/* "NEW" date */
+.isUnread-3Lojb- .content-3spvdd{
+    display: block;
+    flex: 0 0 auto;
+    padding: 2px 9px;
+    color: #c64445;
+    background: var(--background-primary);
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: -1px;
+    line-height: 13px;
+}
+
+.hasContent-31hcsn::before {
+    display: none;
+}
+
+
+.compact-2Nkcau {
+    /* remove spacing between same-group messages */
+    padding: .0rem 1rem .0rem 80px;
+    text-indent: calc(-80px - -1rem);
+}
+.cozyMessage-1DWF9U {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.container-3FojY8 {
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+/* change user profile */
+.role-2TIOKu{
+    font-size:12px;
+    font-weight:500;
+    border:1px solid;
+    border-radius:11px;
+    background: none;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    height:22px;
+    margin:0 4px 4px 0;
+    padding:4px
+}
+.userPopout-2j1gM4 {
+    background: var(--background-secondary-alt);
+}
+.bodyInnerWrapper-2bQs1k {
+    background-color: var(--background-secondary-alt);
+}
+
+.footer-3naVBw {
+    background-color: var(--background-secondary-alt);
+}
+
+.input-2z42oC {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.roleName-2ZJJYR {
+    max-width:200px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    margin-right:4px
+}
+
+/* Remove annoying thread popouts */
+.popout-TdhJ6Z {
+    display: none!important;
+}
+
+/* remove sticker prompt */
+.container-1ZA19X {
+    display: none!important;
+}
+
+/* Progress bar colour */
+.progressBar-1T6LYX {
+    background-color: #7289da!important;
+}
+
+/* recolour theme */
+.theme-dark {
+	--brand-experiment-100: #f8f9fd !important;
+	--brand-experiment-130: #f2f4fc !important;
+	--brand-experiment-160: #ebeefa !important;
+	--brand-experiment-200: #e3e7f8 !important;
+	--brand-experiment-230: #dae0f5 !important;
+	--brand-experiment-260: #d1d9f3 !important;
+	--brand-experiment-300: #c7d0f0 !important;
+	--brand-experiment-330: #b5c1ec !important;
+	--brand-experiment-360: #a5b3e7 !important;
+	--brand-experiment-400: #8ea1e1 !important;
+	--brand-experiment-430: #869adf !important;
+	--brand-experiment-460: #7d92dd !important;
+	--brand-experiment: #7289da !important;
+	--brand-experiment-500: #7289da !important;
+	--brand-experiment-530: #687dc6 !important;
+	--brand-experiment-560: #5c6fb1 !important;
+	--brand-experiment-600: #4e5d94 !important;
+	--brand-experiment-630: #435180 !important;
+	--brand-experiment-660: #3b4770 !important;
+	--brand-experiment-700: #2e3757 !important;
+	--brand-experiment-730: #2b3352 !important;
+	--brand-experiment-760: #272f4b !important;
+	--brand-experiment-800: #222941 !important;
+	--brand-experiment-830: #1a2032 !important;
+	--brand-experiment-860: #111521 !important;
+	--brand-experiment-900: #06070b !important;
+	--brand-experiment-05a: rgba(114, 137, 218, 0.05) !important;
+	--brand-experiment-10a: rgba(114, 137, 218, 0.1) !important;
+	--brand-experiment-15a: rgba(114, 137, 218, 0.15) !important;
+	--brand-experiment-20a: rgba(114, 137, 218, 0.2) !important;
+	--brand-experiment-25a: rgba(114, 137, 218, 0.25) !important;
+	--brand-experiment-30a: rgba(114, 137, 218, 0.3) !important;
+	--brand-experiment-35a: rgba(114, 137, 218, 0.35) !important;
+	--brand-experiment-40a: rgba(114, 137, 218, 0.4) !important;
+	--brand-experiment-45a: rgba(114, 137, 218, 0.45) !important;
+	--brand-experiment-50a: rgba(114, 137, 218, 0.5) !important;
+	--brand-experiment-55a: rgba(114, 137, 218, 0.55) !important;
+	--brand-experiment-60a: rgba(114, 137, 218, 0.6) !important;
+	--brand-experiment-65a: rgba(114, 137, 218, 0.65) !important;
+	--brand-experiment-70a: rgba(114, 137, 218, 0.7) !important;
+	--brand-experiment-75a: rgba(114, 137, 218, 0.75) !important;
+	--brand-experiment-80a: rgba(114, 137, 218, 0.8) !important;
+	--brand-experiment-85a: rgba(114, 137, 218, 0.85) !important;
+	--brand-experiment-90a: rgba(114, 137, 218, 0.9) !important;
+	--brand-experiment-95a: rgba(114, 137, 218, 0.95) !important;
+    	--brand-experiment-460a:rgb(114, 137, 218,0.2) !important;
+	--text-muted:#72767d;
+}
+
     background-color: rgba(0,0,0,0)!important;
 }
 /*.username-h_Y3Us:hover {

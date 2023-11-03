@@ -11,11 +11,11 @@
     display: flex;
 }
 /* remove reactions when right clicking message */
-.wrapper--nA0oy {
+.wrapper__2e846 {
     display: none;
 }
 
-.group-spacing-24 .groupStart-3Mlgv1 {
+.group-spacing-24 .groupStart__56db5 {
     /* half of the original margin into padding for the border */
     /* SET GROUP SPACING TO 24 PX OR OTHERWISE IT WILL NOT WORK */
     padding-top: 1rem;
@@ -28,7 +28,7 @@
     
 
 /* Simulate old regular message dividers */
-.groupStart-3Mlgv1::after {
+.groupStart__56db5::after {
     content: "";
     position: absolute;
     left: 15px;
@@ -38,29 +38,29 @@
     border-top: var(--background-modifier-accent) solid 1px;
 }
 /* Remove on hover message highlighting */
-.message-2CShn3:hover {
+.message__80c10:hover {
     background-color: rgba(0,0,0,0)!important;
 }
-/*.username-h_Y3Us:hover {
+/*.username_d30d99:hover {
     text-decoration: none!important;
     font-weight: 510;
 }*/
 /* remade pings*/
-.mentioned-Tre-dv {
+.mentioned__58017 {
     background-color: rgba(0,0,0,0);
 }
-.theme-dark .wrapper-1ZcZW- {
+.theme-dark .wrapper__2d9b1 {
     background: rgba(114, 137, 218,0.1);
     color: #7289da;
 }
-.mentioned-Tre-dv .markup-eYLPri {
+.mentioned__58017 .markup_a7e664 {
     position: relative;
     background-color: rgba(250,166,26,0.1)!important;
     border-radius: 0px 4px 4px 0px;
     padding-left: 5px;
     margin-left: -5px;
 }
-.message-2CShn3.mentioned-Tre-dv .markup-eYLPri::before{
+.message__80c10.mentioned__58017 .markup_a7e664::before{
     position: absolute;
     content: "";
     display: inline;
@@ -72,51 +72,51 @@
     pointer-events: none;
 }
 /* remove default ping pseudo element */
-.mentioned-Tre-dv::before {
+.mentioned__58017::before {
     content: none!important;
 }
 
 /* Remove on hover timestamps */
-.timestampVisibleOnHover-9PEuZS {
+.timestampVisibleOnHover_e8cc6d {
     display: none;
 }
 /* Change reaction and more icons */
-.wrapper-2vIMkT {
+.wrapper_c727b6 {
     position:relative;
     background-color: rgba(0,0,0,0);
     box-shadow: none!important;
     margin-top: 20px;
     margin-right: -19px;
 }
-.button-3bklZh {
+.button_d553e5 {
     background-color: rgba(0,0,0,0)!important;
     transition: none!important;
     padding: 0px;
 }
-.icon-1zidb7 {
+.icon_d1ac81 {
     height: 15px;
 }
 /* change reactions to old style */
-.reaction-3vwAF2 {
+.reaction_b90ab0 {
     border: 0px;
     border-radius: 3px;
     background: #3E4147;
 }
-.reactionCount-26U4As {
+.reactionCount__60448 {
     color: #72767d;
 }
-.reaction-3vwAF2.reactionMe-1PwQAc {
+.reaction_b90ab0.reactionMe_bf6909 {
     background-color: var(--brand-experiment-460a);
 }
-.reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As {
+.reaction_b90ab0.reactionMe_bf6909 .reactionCount__60448 {
     color: #7289da;
 }
 /* add "NEW MESSAGES" back */
-.isUnread-3Lojb-{
+.isUnread__6f880{
     background-color: #c64445;
     border-color: #c64445;
 }
-.isUnread-3Lojb-::before {
+.isUnread__6f880::before {
         content: "NEW MESSAGES";
         display: block;
         flex: 0 0 auto;
@@ -129,11 +129,11 @@
         line-height: 13px;
 }
 /* Remove normal "NEW" bubble */
-.unreadPill-3nEWYM {
+.unreadPill__715fc {
     display: none;
 }
 /* "NEW" date */
-.isUnread-3Lojb- .content-3spvdd{
+.isUnread__6f880 .content_d67847{
     display: block;
     flex: 0 0 auto;
     padding: 2px 9px;
@@ -145,27 +145,27 @@
     line-height: 13px;
 }
 
-.hasContent-31hcsn::before {
+.hasContent_fea365::before {
     display: none;
 }
 
 
-.compact-2Nkcau {
+.compact__54ecc {
     /* remove spacing between same-group messages */
     padding: .0rem 1rem .0rem 80px;
     text-indent: calc(-80px - -1rem);
 }
-.cozyMessage-1DWF9U {
+.cozyMessage__64ce7 {
     padding-top: 0px;
     padding-bottom: 0px;
 }
-.container-3FojY8 {
+.container_aed774 {
 padding-top: 0px;
 padding-bottom: 0px;
 }
 
 /* change user profile */
-.role-2TIOKu{
+.role__631a3{
     font-size:12px;
     font-weight:500;
     border:1px solid;
@@ -188,11 +188,11 @@ padding-bottom: 0px;
     background-color: var(--background-secondary-alt);
 }
 
-.input-2z42oC {
+.input__95bc4 {
     background-color: rgba(0,0,0,0.1);
 }
 
-.roleName-2ZJJYR {
+.roleName_d19d33 {
     max-width:200px;
     white-space:nowrap;
     text-overflow:ellipsis;
@@ -201,12 +201,12 @@ padding-bottom: 0px;
 }
 
 /* Remove annoying thread popouts */
-.popout-TdhJ6Z {
+.popout__24e32 {
     display: none!important;
 }
 
 /* remove sticker prompt */
-.container-1ZA19X {
+.container__628bd {
     display: none!important;
 }
 
@@ -268,26 +268,26 @@ padding-bottom: 0px;
 
     background-color: rgba(0,0,0,0)!important;
 }
-/*.username-h_Y3Us:hover {
+/*.username_d30d99:hover {
     text-decoration: none!important;
     font-weight: 510;
 }*/
 /* remade pings*/
-.mentioned-Tre-dv {
+.mentioned__58017 {
     background-color: rgba(0,0,0,0);
 }
-.theme-dark .wrapper-1ZcZW- {
+.theme-dark .wrapper__2d9b1 {
     background: rgba(114, 137, 218,0.1);
     color: #7289da;
 }
-.mentioned-Tre-dv .markup-eYLPri {
+.mentioned__58017 .markup_a7e664 {
     position: relative;
     background-color: rgba(250,166,26,0.1)!important;
     border-radius: 0px 4px 4px 0px;
     padding-left: 5px;
     margin-left: -5px;
 }
-.message-2CShn3.mentioned-Tre-dv .markup-eYLPri::before{
+.message__80c10.mentioned__58017 .markup_a7e664::before{
     position: absolute;
     content: "";
     display: inline;
@@ -299,51 +299,51 @@ padding-bottom: 0px;
     pointer-events: none;
 }
 /* remove default ping pseudo element */
-.mentioned-Tre-dv::before {
+.mentioned__58017::before {
     content: none!important;
 }
 
 /* Remove on hover timestamps */
-.timestampVisibleOnHover-9PEuZS {
+.timestampVisibleOnHover_e8cc6d {
     display: none;
 }
 /* Change reaction and more icons */
-.wrapper-2vIMkT {
+.wrapper_c727b6 {
     position:relative;
     background-color: rgba(0,0,0,0);
     box-shadow: none!important;
     margin-top: 20px;
     margin-right: -19px;
 }
-.button-3bklZh {
+.button_d553e5 {
     background-color: rgba(0,0,0,0)!important;
     transition: none!important;
     padding: 0px;
 }
-.icon-1zidb7 {
+.icon_d1ac81 {
     height: 15px;
 }
 /* change reactions to old style */
-.reaction-3vwAF2 {
+.reaction_b90ab0 {
     border: 0px;
     border-radius: 3px;
     background: #3E4147;
 }
-.reactionCount-26U4As {
+.reactionCount__60448 {
     color: #72767d;
 }
-.reaction-3vwAF2.reactionMe-1PwQAc {
+.reaction_b90ab0.reactionMe_bf6909 {
     background-color: var(--brand-experiment-460a);
 }
-.reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As {
+.reaction_b90ab0.reactionMe_bf6909 .reactionCount__60448 {
     color: #7289da;
 }
 /* add "NEW MESSAGES" back */
-.isUnread-3Lojb-{
+.isUnread__6f880{
     background-color: #c64445;
     border-color: #c64445;
 }
-.isUnread-3Lojb-::before {
+.isUnread__6f880::before {
         content: "NEW MESSAGES";
         display: block;
         flex: 0 0 auto;
@@ -356,11 +356,11 @@ padding-bottom: 0px;
         line-height: 13px;
 }
 /* Remove normal "NEW" bubble */
-.unreadPill-3nEWYM {
+.unreadPill__715fc {
     display: none;
 }
 /* "NEW" date */
-.isUnread-3Lojb- .content-3spvdd{
+.isUnread__6f880 .content_d67847{
     display: block;
     flex: 0 0 auto;
     padding: 2px 9px;
@@ -372,27 +372,27 @@ padding-bottom: 0px;
     line-height: 13px;
 }
 
-.hasContent-31hcsn::before {
+.hasContent_fea365::before {
     display: none;
 }
 
 
-.compact-2Nkcau {
+.compact__54ecc {
     /* remove spacing between same-group messages */
     padding: .0rem 1rem .0rem 80px;
     text-indent: calc(-80px - -1rem);
 }
-.cozyMessage-1DWF9U {
+.cozyMessage__64ce7 {
     padding-top: 0px;
     padding-bottom: 0px;
 }
-.container-3FojY8 {
+.container_aed774 {
 padding-top: 0px;
 padding-bottom: 0px;
 }
 
 /* change user profile */
-.role-2TIOKu{
+.role__631a3{
     font-size:12px;
     font-weight:500;
     border:1px solid;
@@ -415,11 +415,11 @@ padding-bottom: 0px;
     background-color: var(--background-secondary-alt);
 }
 
-.input-2z42oC {
+.input__95bc4 {
     background-color: rgba(0,0,0,0.1);
 }
 
-.roleName-2ZJJYR {
+.roleName_d19d33 {
     max-width:200px;
     white-space:nowrap;
     text-overflow:ellipsis;
@@ -428,12 +428,12 @@ padding-bottom: 0px;
 }
 
 /* Remove annoying thread popouts */
-.popout-TdhJ6Z {
+.popout__24e32 {
     display: none!important;
 }
 
 /* remove sticker prompt */
-.container-1ZA19X {
+.container__628bd {
     display: none!important;
 }
 

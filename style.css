@@ -11,11 +11,11 @@
     display: flex;
 }
 /* remove reactions when right clicking message */
-.wrapper__2e846 {
+.wrapper__01a96 {
     display: none;
 }
 
-.group-spacing-24 .groupStart__56db5 {
+.group-spacing-24 .groupStart__7b93c {
     /* half of the original margin into padding for the border */
     /* SET GROUP SPACING TO 24 PX OR OTHERWISE IT WILL NOT WORK */
     padding-top: 1rem;
@@ -28,7 +28,7 @@
     
 
 /* Simulate old regular message dividers */
-.groupStart__56db5::after {
+.groupStart__7b93c::after {
     content: "";
     position: absolute;
     left: 15px;
@@ -38,29 +38,29 @@
     border-top: var(--background-modifier-accent) solid 1px;
 }
 /* Remove on hover message highlighting */
-.message__80c10:hover {
+.message_ccca67:hover {
     background-color: rgba(0,0,0,0)!important;
 }
-/*.username_d30d99:hover {
+/*.username__0b0e7:hover {
     text-decoration: none!important;
     font-weight: 510;
 }*/
 /* remade pings*/
-.mentioned__58017 {
+.mentioned_fa6fd2 {
     background-color: rgba(0,0,0,0);
 }
-.theme-dark .wrapper__2d9b1 {
+.theme-dark .wrapper_f5f4c9 {
     background: rgba(114, 137, 218,0.1);
     color: #7289da;
 }
-.mentioned__58017 .markup_a7e664 {
+.mentioned_fa6fd2 .markup_a7e664 {
     position: relative;
     background-color: rgba(250,166,26,0.1)!important;
     border-radius: 0px 4px 4px 0px;
     padding-left: 5px;
     margin-left: -5px;
 }
-.message__80c10.mentioned__58017 .markup_a7e664::before{
+.message_ccca67.mentioned_fa6fd2 .markup_a7e664::before{
     position: absolute;
     content: "";
     display: inline;
@@ -72,51 +72,51 @@
     pointer-events: none;
 }
 /* remove default ping pseudo element */
-.mentioned__58017::before {
+.mentioned_fa6fd2::before {
     content: none!important;
 }
 
 /* Remove on hover timestamps */
-.timestampVisibleOnHover_e8cc6d {
+.timestampVisibleOnHover__1679f {
     display: none;
 }
 /* Change reaction and more icons */
-.wrapper_c727b6 {
+.wrapper__4e6b6 {
     position:relative;
     background-color: rgba(0,0,0,0);
     box-shadow: none!important;
     margin-top: 20px;
     margin-right: -19px;
 }
-.button_d553e5 {
+.button_d4bf9b {
     background-color: rgba(0,0,0,0)!important;
     transition: none!important;
     padding: 0px;
 }
-.icon_d1ac81 {
+.icon_e3aee9 {
     height: 15px;
 }
 /* change reactions to old style */
-.reaction_b90ab0 {
+.reaction_ef7e09 {
     border: 0px;
     border-radius: 3px;
     background: #3E4147;
 }
-.reactionCount__60448 {
+.reactionCount_b780c8 {
     color: #72767d;
 }
-.reaction_b90ab0.reactionMe_bf6909 {
+.reaction_ef7e09.reactionMe__9fc5c {
     background-color: var(--brand-experiment-460a);
 }
-.reaction_b90ab0.reactionMe_bf6909 .reactionCount__60448 {
+.reaction_ef7e09.reactionMe__9fc5c .reactionCount_b780c8 {
     color: #7289da;
 }
 /* add "NEW MESSAGES" back */
-.isUnread__6f880{
+.isUnread_de09f5{
     background-color: #c64445;
     border-color: #c64445;
 }
-.isUnread__6f880::before {
+.isUnread_de09f5::before {
         content: "NEW MESSAGES";
         display: block;
         flex: 0 0 auto;
@@ -129,11 +129,11 @@
         line-height: 13px;
 }
 /* Remove normal "NEW" bubble */
-.unreadPill__715fc {
+.unreadPill__1b4fa {
     display: none;
 }
 /* "NEW" date */
-.isUnread__6f880 .content_d67847{
+.isUnread_de09f5 .content__7191e{
     display: block;
     flex: 0 0 auto;
     padding: 2px 9px;
@@ -145,27 +145,27 @@
     line-height: 13px;
 }
 
-.hasContent_fea365::before {
+.hasContent_c79a1f::before {
     display: none;
 }
 
 
-.compact__54ecc {
+.compact_eda3c8 {
     /* remove spacing between same-group messages */
     padding: .0rem 1rem .0rem 80px;
     text-indent: calc(-80px - -1rem);
 }
-.cozyMessage__64ce7 {
+.cozyMessage__9f4fd {
     padding-top: 0px;
     padding-bottom: 0px;
 }
-.container_aed774 {
+.container__2acd5 {
 padding-top: 0px;
 padding-bottom: 0px;
 }
 
 /* change user profile */
-.role__631a3{
+.role_d81130{
     font-size:12px;
     font-weight:500;
     border:1px solid;
@@ -188,11 +188,11 @@ padding-bottom: 0px;
     background-color: var(--background-secondary-alt);
 }
 
-.input__95bc4 {
+.input__2c88a {
     background-color: rgba(0,0,0,0.1);
 }
 
-.roleName_d19d33 {
+.roleName__851c9 {
     max-width:200px;
     white-space:nowrap;
     text-overflow:ellipsis;
@@ -206,7 +206,7 @@ padding-bottom: 0px;
 }
 
 /* remove sticker prompt */
-.container__628bd {
+.container__3ac06 {
     display: none!important;
 }
 
@@ -268,26 +268,26 @@ padding-bottom: 0px;
 
     background-color: rgba(0,0,0,0)!important;
 }
-/*.username_d30d99:hover {
+/*.username__0b0e7:hover {
     text-decoration: none!important;
     font-weight: 510;
 }*/
 /* remade pings*/
-.mentioned__58017 {
+.mentioned_fa6fd2 {
     background-color: rgba(0,0,0,0);
 }
-.theme-dark .wrapper__2d9b1 {
+.theme-dark .wrapper_f5f4c9 {
     background: rgba(114, 137, 218,0.1);
     color: #7289da;
 }
-.mentioned__58017 .markup_a7e664 {
+.mentioned_fa6fd2 .markup_a7e664 {
     position: relative;
     background-color: rgba(250,166,26,0.1)!important;
     border-radius: 0px 4px 4px 0px;
     padding-left: 5px;
     margin-left: -5px;
 }
-.message__80c10.mentioned__58017 .markup_a7e664::before{
+.message_ccca67.mentioned_fa6fd2 .markup_a7e664::before{
     position: absolute;
     content: "";
     display: inline;
@@ -299,51 +299,51 @@ padding-bottom: 0px;
     pointer-events: none;
 }
 /* remove default ping pseudo element */
-.mentioned__58017::before {
+.mentioned_fa6fd2::before {
     content: none!important;
 }
 
 /* Remove on hover timestamps */
-.timestampVisibleOnHover_e8cc6d {
+.timestampVisibleOnHover__1679f {
     display: none;
 }
 /* Change reaction and more icons */
-.wrapper_c727b6 {
+.wrapper__4e6b6 {
     position:relative;
     background-color: rgba(0,0,0,0);
     box-shadow: none!important;
     margin-top: 20px;
     margin-right: -19px;
 }
-.button_d553e5 {
+.button_d4bf9b {
     background-color: rgba(0,0,0,0)!important;
     transition: none!important;
     padding: 0px;
 }
-.icon_d1ac81 {
+.icon_e3aee9 {
     height: 15px;
 }
 /* change reactions to old style */
-.reaction_b90ab0 {
+.reaction_ef7e09 {
     border: 0px;
     border-radius: 3px;
     background: #3E4147;
 }
-.reactionCount__60448 {
+.reactionCount_b780c8 {
     color: #72767d;
 }
-.reaction_b90ab0.reactionMe_bf6909 {
+.reaction_ef7e09.reactionMe__9fc5c {
     background-color: var(--brand-experiment-460a);
 }
-.reaction_b90ab0.reactionMe_bf6909 .reactionCount__60448 {
+.reaction_ef7e09.reactionMe__9fc5c .reactionCount_b780c8 {
     color: #7289da;
 }
 /* add "NEW MESSAGES" back */
-.isUnread__6f880{
+.isUnread_de09f5{
     background-color: #c64445;
     border-color: #c64445;
 }
-.isUnread__6f880::before {
+.isUnread_de09f5::before {
         content: "NEW MESSAGES";
         display: block;
         flex: 0 0 auto;
@@ -356,11 +356,11 @@ padding-bottom: 0px;
         line-height: 13px;
 }
 /* Remove normal "NEW" bubble */
-.unreadPill__715fc {
+.unreadPill__1b4fa {
     display: none;
 }
 /* "NEW" date */
-.isUnread__6f880 .content_d67847{
+.isUnread_de09f5 .content__7191e{
     display: block;
     flex: 0 0 auto;
     padding: 2px 9px;
@@ -372,27 +372,27 @@ padding-bottom: 0px;
     line-height: 13px;
 }
 
-.hasContent_fea365::before {
+.hasContent_c79a1f::before {
     display: none;
 }
 
 
-.compact__54ecc {
+.compact_eda3c8 {
     /* remove spacing between same-group messages */
     padding: .0rem 1rem .0rem 80px;
     text-indent: calc(-80px - -1rem);
 }
-.cozyMessage__64ce7 {
+.cozyMessage__9f4fd {
     padding-top: 0px;
     padding-bottom: 0px;
 }
-.container_aed774 {
+.container__2acd5 {
 padding-top: 0px;
 padding-bottom: 0px;
 }
 
 /* change user profile */
-.role__631a3{
+.role_d81130{
     font-size:12px;
     font-weight:500;
     border:1px solid;
@@ -415,11 +415,11 @@ padding-bottom: 0px;
     background-color: var(--background-secondary-alt);
 }
 
-.input__95bc4 {
+.input__2c88a {
     background-color: rgba(0,0,0,0.1);
 }
 
-.roleName_d19d33 {
+.roleName__851c9 {
     max-width:200px;
     white-space:nowrap;
     text-overflow:ellipsis;
@@ -433,7 +433,7 @@ padding-bottom: 0px;
 }
 
 /* remove sticker prompt */
-.container__628bd {
+.container__3ac06 {
     display: none!important;
 }
 
